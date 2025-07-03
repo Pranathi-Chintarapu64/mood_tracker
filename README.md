@@ -51,34 +51,8 @@ This project is a **Real-Time Mood Tracker** built entirely with **Python**, **C
 ## Architecture Diagram
 
 ```
-+----------------+       +------------------+       +----------------+
-|                |       |                  |       |                |
-|  Celery Beat   +------>+  MQTT Publisher  +------>+     User App   |
-| (Scheduler)    |       | Sends reminders  |       | (CLI or Web)  |
-+----------------+       +------------------+       +-------+--------+
-                                                               |
-                                  +----------------------------+
-                                  |
-                                  v
-                         +--------+---------+
-                         |    MQTT Broker   |
-                         |     (EMQX)       |
-                         +--------+---------+
-                                  |
-                                  v
-                         +--------+---------+
-                         | MQTT Subscriber  |
-                         +--------+---------+
-                                  |
-                         +--------v---------+
-                         |  Celery Worker   |
-                         |  (Processes Data)|
-                         +--------+---------+
-                                  |
-                         +--------v---------+
-                         |     Database     |
-                         +------------------+
-```
+![Sequence Diagram](mood_tracker.png)
+
 
 
 
