@@ -51,7 +51,7 @@ This project is a **Real-Time Mood Tracker** built entirely with **Python**, **C
 ## Architecture Diagram
 
 ```
-![Sequence Diagram](mood_tracker.png)
+![Sequence Diagram](./mood_tracker.png)
 
 
 
