@@ -48,7 +48,7 @@ This project is a **Real-Time Mood Tracker** built entirely with **Python**, **C
 
 ---
 
-## Architecture Diagram
+## System Interaction Workflow
 
 
 
