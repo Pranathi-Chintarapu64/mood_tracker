@@ -50,14 +50,14 @@ This project is a **Real-Time Mood Tracker** built entirely with **Python**, **C
 
 ## System Architecture
 
-
+![Architecture Diagram](images/03-celery.excalidraw.png)
 
 
 ## System Interaction Workflow
 
 
+![Sequence Diagram](images/mood_tracker.png)
 
-![Sequence Diagram](./mood_tracker.png)
 
 
 
